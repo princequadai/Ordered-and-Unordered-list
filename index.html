@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ol & ul</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: box-conatiner;
+        }
+        body{
+            background-color: rgba(247, 254, 63, 0.681);
+        }        
+        h1{
+            font-size: 45px;
+            text-align: center;
+            padding-top: 5vh;
+        }
+        #main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 55px;
+            gap: 20px;
+        }
+        .conatiner{            
+            height: 600px;
+            width: 500px;
+            background-color: rgb(236, 168, 232);
+            border-radius: 10px;
+            border: 1px solid black;
+            padding-top: 25px;
+
+        }
+        .list{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 20px;
+            padding-right: 50px;
+            font-size: 22px;
+            line-height: 2.2;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Ordered and Unordered List</h1>
+
+    <div id="main">
+
+        <div class="conatiner">
+            <h2>Tasks</h2>
+            
+            <ol class="list">
+                <li>Reading</li>
+                <li>GFG</li>
+                <li>running</li>
+                <li>Watching</li>
+                <li>Jumping</li>
+                <li>Riding</li>
+                
+            </ol>
+        </div>
+
+        <div class="conatiner">
+            <h2>Interest</h2>
+
+            <ul class="list">
+                <li>Listening Music</li>
+                <li>Watching</li>
+                <li>Reading</li>
+                <li>Listing</li>
+                <li>English</li>
+            </ul>
+        </div>
+
+    </div>    
+</body>
+</html>
